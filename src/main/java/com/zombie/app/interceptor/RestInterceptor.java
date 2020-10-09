@@ -37,6 +37,6 @@ public class RestInterceptor implements HandlerInterceptor {
             return false;
         }
 
-        return false;
+        return true;
     }
 }
